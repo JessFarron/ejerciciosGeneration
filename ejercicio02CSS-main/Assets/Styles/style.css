@@ -1,0 +1,52 @@
+
+header a {   
+    font-family: 'Sarabun', sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none; 
+    transition: 1s; 
+    border-bottom: 2px solid #92ccce; 
+}
+
+header a:hover { 
+    color: #31343d;
+    background-color:  #92ccce;
+}
+
+nav {    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #002b51; 
+    text-align: center;
+}
+nav img { /*se agrego una imagen del logo en la nav CUIDADO CON USAR la 
+    etiqueta IMG solo mejor asignar una clase si van a cambiar formato*/
+    margin-left: 20px;
+
+}
+nav a {
+    margin: 0px 20px;
+}
+
+body{
+    background-color:  #ffffff;
+}
+
+/*img{
+    margin:auto;
+    display: block;
+}*/
+h1{
+    text-align: center; font-family: sans-serif; 
+}
+h3 {
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+li {
+    text-align: center;
+}
